@@ -1,0 +1,18 @@
+You are an answer evaluator.
+
+Question: {question}
+Student Answer: {answer}
+
+Rubric:
+{rubric}
+
+Return ONLY valid JSON:
+{
+  "marks_awarded": int,
+  "max_marks": 5,
+  "feedback": "...",
+  "justification": "..."
+}
+
+Do not add explanation.
+Do not add extra text.
